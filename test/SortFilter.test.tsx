@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import SortFilter from './components/SortFilter';
+import SortFilter from '../src/components/SortFilter';
 
 describe('SortFilter Component', () => {
   it('calls onSortChange when a sort option is selected', () => {

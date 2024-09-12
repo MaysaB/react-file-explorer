@@ -5,8 +5,8 @@ export type FileType = 'pdf' | 'doc' | 'csv' | 'mov';
 export interface BaseFile {
   type: FileType;
   name: string;
-  added: string; // Date added
-  size: number; // Size in KB
+  added: string; 
+  size: number; 
 }
 
 //interface for a file, which includes properties of BaseFile
